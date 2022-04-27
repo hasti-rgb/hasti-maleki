@@ -1,0 +1,113 @@
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.topnav {
+  float: left;
+  background-color: #3574b4;
+  overflow: hidden;
+  width: 100%;
+}
+
+.task {
+  color: white;
+  padding-left: 4rem;
+  font-size: 40px;
+}
+
+.newtask {
+  float: left;
+  padding-left: 4rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.pNew {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.area1 {
+  position: relative;
+  resize: none;
+  background-color: #e9eaeb;
+  border: 0ch;
+  margin-bottom: 0.5rem;
+}
+.title {
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.area2 {
+  position: relative;
+  resize: none;
+  background-color: #e9eaeb;
+  border: 0ch;
+}
+
+::placeholder {
+  position: absolute;
+  margin-left: 1rem;
+  margin-top: 1.2rem;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.description {
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.btn {
+  width: 100%;
+  background-color: #3574b4;
+  color: white;
+  margin-top: 7px;
+  font-size: 20px;
+  border-radius: 5px;
+  height: 65px;
+}
+
+.taskspage {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-top-right-radius: 28px;
+  border-top-left-radius: 28px;
+  background-color: #3574b4;
+  margin-top: 40px;
+  top: 50%;
+}
+
+.taskspage2 {
+  position: absolute;
+  width: 100%;
+  height: 480px;
+  border-top-right-radius: 28px;
+  border-top-left-radius: 28px;
+  background-color: #aacdea;
+  margin-top: 10px;
+  top: 50%;
+}
+
+.tasks {
+  position: absolute;
+  color: white;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  font-size: 40px;
+}
+
+.message {
+  margin-top: 20rem;
+  text-align: center;
+  font-size: 40px;
+}
