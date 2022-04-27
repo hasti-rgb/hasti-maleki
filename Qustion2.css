@@ -1,0 +1,31 @@
+.dot {
+  height: 100px;
+  width: 100px;
+  background: pink;
+  border-radius: 50%;
+  display: flex;
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.message {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+body {
+  height: 97vh;
+  width: 97%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
