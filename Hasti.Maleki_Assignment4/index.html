@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <style>
+      body {
+        background-color: rgb(152, 209, 190);
+        text-align: center;
+      }
+      form {
+        display: inline-block;
+        margin-top: 20vw;
+      }
+      .text-area {
+        width: 230px;
+        height: 40px;
+      }
+      .calc-btn {
+        width: 100px;
+        height: 47px;
+        background-color: azure;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form method="post" action="result.php">
+      <input type="text" name="text-area" class="text-area" />
+      <input type="submit" name="calc-btn" value="Calculate" class="calc-btn" />
+    </form>
+  </body>
+</html>
